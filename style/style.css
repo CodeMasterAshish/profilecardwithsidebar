@@ -295,8 +295,9 @@ body {
 }
 
 .button {
-    width: 70%;
+    width: 90%;
     display: flex;
+    gap: 8px;
     justify-content: space-around;
 }
 
@@ -350,3 +351,22 @@ body {
     color: var(--dark);
     background-color: var(--background-blue);
 }
+
+
+.change-background-button {
+    width: 140px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    background-color: var(--button);
+    color: var(--light);
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 0px black;
+    margin-top: 10px;
+}
+
+.change-background-button:hover {
+    transform: translateY(-3px);
+    color: white;
+    background-color: var(--dark);
+}
+
